@@ -1,0 +1,24 @@
+# ❌ NO subir carpetas generadas o de configuración
+
+# Compilados
+/target
+*.class
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Archivos del sistema
+.DS_Store
+*.log
+*.tmp
+
+# Configuraciones sensibles
+application.properties
+application.yml
+
+# Otros
+*.bak
+
+# Maven
+.mvn/wrapper/maven-wrapper.jar
